@@ -1,0 +1,128 @@
+/*This is Nightmare begin :(*/
+ body {  
+    background: linear-gradient(225deg,#ccffff, #ffcccc);
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+ }
+main {
+  margin-top: 5px;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+ 
+
+ .first-header {
+    margin: 0;
+    padding: 0;
+    opacity: 0.55;
+    box-sizing: border-box;
+    background: #fcfcfcce;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    nav{  
+        padding: 2px 30px 2px 50px;
+        border-left: none;
+        border-right: none;
+      }
+      nav ul{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;       
+      }
+      nav ul li.logo{
+        flex: 1;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      nav ul .search-icon{
+        height: 40px;
+        width: 240px;
+        display: flex;
+        background: #f2f2f2;
+        border-radius: 5px;
+      }
+      nav ul .search-icon input{
+        height: 100%;
+        width: 200px;
+        border: none;
+        outline: none;
+        padding: 0 10px;
+        color: #000;
+        font-size: 16px;
+        border-radius: 5px 0 0 5px;
+      }
+      nav ul .search-icon .icon{
+        height: 100%;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        border: 1px solid #cccccc;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+      }
+      nav ul .search-icon .icon img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      nav ul .search-icon .icon:hover{
+        background: #e6e6e6;
+      }
+    
+ }    
+ 
+ 
+ .second-header {
+    opacity: 0.75;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 3px px 0px #00000008; 
+    nav {
+        top: 94px;
+        width: auto;
+        .primary-nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        .primary-nav li {
+            display: inline-block;
+        }
+        .primary-nav a {
+            font-weight: bold;
+            font-size: large;
+            text-decoration: none;
+            width: 150px;
+            padding: 10px;
+            display: block;
+            color: #161515ee;
+            text-align: center;
+        }
+        .primary-nav a:hover {
+            background-color: #b67e7e;
+            transition: 0.4;
+        }
+    }
+}
+
+
+.post-slide {
+    width: auto;
+    height: 419px;
+    position: 10px 20px 10px 20px;
+    opacity: 0.8;
+    background: #ffffffed;
+    border: 1px solid #ffffff00;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px 0px #00000029; 
+}
+
+
