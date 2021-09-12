@@ -475,7 +475,7 @@ main {
 }
 
 .about-us {
-  margin-top: 30px;
+  margin-top: 150px;
   opacity: 0.65;
   background: #ffffff;
   border: 1px;
@@ -553,7 +553,7 @@ main {
 }
 
 .about-us .footer-col ul li a:hover {
-  color: #ffffff;
+  color: #1b1818;
   padding-left: 8px;
 }
 
