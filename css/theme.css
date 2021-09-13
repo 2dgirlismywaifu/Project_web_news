@@ -410,8 +410,8 @@ main {
   text-align: justify;
 }
 
-@media (max-width: 650px) {
-  .Fourth-section .News-Highlights ul li .content p {
+@media (width: 450px) {
+  .Fourth-section .News-Highlights p {
     display: none;
   }
 }
@@ -429,24 +429,10 @@ main {
 }
 
 .Fourth-section .Hot-news .banner-name {
-  margin-left: 150px;
-  width: 300px;
-  height: 60px;
-  opacity: 0.85;
-  background: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
-  -webkit-backdrop-filter: blur(25px);
-          backdrop-filter: blur(25px);
-}
-
-.Fourth-section .Hot-news .banner-name p {
-  text-align: center;
   opacity: 1;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 60px;
   color: #ff0000;
 }
 

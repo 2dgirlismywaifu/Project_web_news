@@ -335,10 +335,10 @@ main {
         text-align: justify;
         ;
       }
-      @media (max-width: 650px) {
-        p {
-         display: none;
-        }
+    }
+    @media (width: 450px) {
+      p {
+       display: none;
       }
     }
   }
@@ -352,23 +352,11 @@ main {
     border-radius: 10px;
     box-shadow: 0px 3px 6px 0px #00000029;
     .banner-name {
-      margin-left: 150px;
-      width: 300px;
-      height: 60px;
-      opacity: 0.85;
-      background: #ffffff;
-      border: 1px solid #ffffff;
-      border-radius: 10px;
-      box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.20); 
-      backdrop-filter: blur(25px);
-      p {
-        text-align: center;
-        opacity: 1;
-        font-size: 22px;
-        font-weight: 700;
-        color: #ff0000;
-       
-      }
+      opacity: 1;
+      font-size: 30px;
+      font-weight: 500;
+      margin-left: 60px;
+      color: #ff0000;
     } 
     ul {
       list-style: none;
