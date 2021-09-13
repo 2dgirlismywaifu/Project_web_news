@@ -18,7 +18,7 @@
     padding: 0;
     opacity: 0.85;
     box-sizing: border-box;
-    background: #8ee1f0ce;
+    background: #ffffffce;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
@@ -82,9 +82,9 @@
  
  
  .second-header {
-    opacity: 0.75;
-    background-color: #ddeb21;
-    border: 1px solid #f12d2d;
+    opacity: 0.85;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
     border-radius: 10px;
     box-shadow: 0px 3px px 0px #00000008; 
     nav {
@@ -336,7 +336,7 @@ main {
         ;
       }
     }
-    @media (width: 450px) {
+    @media (width: 650px) {
       p {
        display: none;
       }
@@ -345,7 +345,7 @@ main {
   .Hot-news {
     margin-left: 100px;
     width: 750px;
-    height: 970px;
+    height: auto;
     opacity: 0.85;
     background: linear-gradient(225deg,#ccffff, #ffcccc);
     border: 1px;
