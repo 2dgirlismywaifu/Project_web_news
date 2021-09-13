@@ -410,8 +410,8 @@ main {
   text-align: justify;
 }
 
-@media (width: 650px) {
-  .Fourth-section .News-Highlights p {
+@media (max-width: 1200px) {
+  .Fourth-section .News-Highlights ul li .content p {
     display: none;
   }
 }

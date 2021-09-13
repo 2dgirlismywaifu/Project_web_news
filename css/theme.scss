@@ -336,8 +336,8 @@ main {
         ;
       }
     }
-    @media (width: 650px) {
-      p {
+    @media (max-width: 1200px) {
+      ul li .content p  {
        display: none;
       }
     }
