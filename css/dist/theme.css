@@ -19,7 +19,7 @@ body .custom {
   padding: 0;
   opacity: 0.85;
   box-sizing: border-box;
-  background: #8ee1f0ce;
+  background: #ffffffce;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
@@ -90,9 +90,9 @@ body .custom {
 }
 
 .second-header {
-  opacity: 0.75;
-  background-color: #ddeb21;
-  border: 1px solid #f12d2d;
+  opacity: 0.85;
+  background-color: #ffffff;
+  border: 0px solid #ffffff;
   border-radius: 10px;
   box-shadow: 0px 3px px 0px #00000008;
 }
@@ -301,8 +301,8 @@ main {
 }
 
 .Fourth-section .News-Highlights {
-  width: 1032px;
-  height: 970px;
+  max-width: 1032px;
+  max-height: auto;
   opacity: 0.85;
   background: linear-gradient(225deg, #ccffff, #ffcccc);
   border: 1px;
@@ -363,10 +363,16 @@ main {
   text-align: justify;
 }
 
+@media (width: 650px) {
+  .Fourth-section .News-Highlights p {
+    display: none;
+  }
+}
+
 .Fourth-section .Hot-news {
-  margin-left: 30px;
-  width: 350px;
-  height: 970px;
+  margin-left: 100px;
+  width: 750px;
+  height: auto;
   opacity: 0.85;
   background: linear-gradient(225deg, #ccffff, #ffcccc);
   border: 1px;
@@ -375,22 +381,10 @@ main {
 }
 
 .Fourth-section .Hot-news .banner-name {
-  margin-left: 60px;
-  width: 200px;
-  height: 60px;
-  opacity: 0.85;
-  background: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(25px);
-}
-
-.Fourth-section .Hot-news .banner-name p {
-  text-align: center;
   opacity: 1;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 60px;
   color: #ff0000;
 }
 
