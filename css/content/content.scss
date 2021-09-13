@@ -15,7 +15,7 @@ body {
  .first-header {
     margin: 0;
     padding: 0;
-    opacity: 0.85;
+    opacity: 0.95;
     box-sizing: border-box;
     background: #ffffffce;
     border-radius: 10px;
@@ -115,11 +115,47 @@ body {
     }
 }
 
-main {
-  margin-top: 5px;
+.content {
+  margin-top: 50px;
   margin-right: 70px;
   margin-left: 70px;
+  display: flex;
+    .news-content {
+        width: 1100px;
+        height: 1734px;
+        opacity: 1;
+        background: #ffffffed;
+        border: 1px solid rgba(255,255,255,0.00);
+        border-radius: 10px;
+        box-shadow: 0px 3px 6px 0px #00000029; 
+        /*code cho phần h1, p*/
+        .post-title {
+            color: #5c5b5b;
+            margin: 5px;
+            text-align: center;
+        }
+        .post-content {
+            margin-left: 40px;
+            margin-right: 40px;
+            font-size: 18px;  /*change font size*/
+            font-weight: 100; 
+        }
+    }
+    .ad {
+        margin-left: 50px;
+        width: 555px;
+        height: 1060px;
+        opacity: 1;
+        background: rgba(255,255,255,0.93);
+        border: 1px solid rgba(255,255,255,0.00);
+        border-radius: 10px;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); 
+        .content {
+            /*css for content ad, write code here*/
+        }
+    }
 }
+
 
 
 

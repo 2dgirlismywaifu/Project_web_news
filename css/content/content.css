@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   width: auto;
   height: auto;
@@ -15,7 +16,7 @@ body .custom {
 .first-header {
   margin: 0;
   padding: 0;
-  opacity: 0.85;
+  opacity: 0.95;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #ffffffce;
@@ -141,10 +142,55 @@ body .custom {
   transition: 0.4;
 }
 
-main {
-  margin-top: 5px;
+.content {
+  margin-top: 50px;
   margin-right: 70px;
   margin-left: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .news-content {
+  width: 1100px;
+  height: 1734px;
+  opacity: 1;
+  background: #ffffffed;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px 0px #00000029;
+          box-shadow: 0px 3px 6px 0px #00000029;
+  /*code cho phần h1, p*/
+}
+
+.content .news-content .post-title {
+  color: #5c5b5b;
+  margin: 5px;
+  text-align: center;
+}
+
+.content .news-content .post-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 18px;
+  /*change font size*/
+  font-weight: 100;
+}
+
+.content .ad {
+  margin-left: 50px;
+  width: 555px;
+  height: 1060px;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.93);
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.content .ad .content {
+  /*css for content ad, write code here*/
 }
 
 .about-us {
