@@ -20,7 +20,7 @@ body .custom {
   opacity: 0.85;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #fcfcfcce;
+  background: #8ee1f0ce;
   border-radius: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -103,8 +103,8 @@ body .custom {
 
 .second-header {
   opacity: 0.75;
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
+  background-color: #ddeb21;
+  border: 1px solid #f12d2d;
   border-radius: 10px;
   -webkit-box-shadow: 0px 3px px 0px #00000008;
           box-shadow: 0px 3px px 0px #00000008;
@@ -406,7 +406,8 @@ main {
 
 .Fourth-section .News-Highlights ul li .content p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .Fourth-section .Hot-news {
@@ -496,6 +497,9 @@ main {
 .about-us .container {
   max-width: 1170px;
   margin: auto;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
 }
 
 .about-us .row {
