@@ -16,7 +16,7 @@
  .first-header {
     margin: 0;
     padding: 0;
-    opacity: 0.55;
+    opacity: 0.85;
     box-sizing: border-box;
     background: #fcfcfcce;
     border-radius: 10px;
@@ -33,11 +33,16 @@
         flex-wrap: wrap;       
       }
       nav ul li.logo{
-        flex: 1;
+        flex: 1 ;
         font-size: 30px;
         font-weight: 700;
+        img {
+          width: 250px;
+          height: 50px;
+        }
       }
       nav ul .search-icon{
+        margin-top: 10px;
         height: 40px;
         width: 240px;
         display: flex;
