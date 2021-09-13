@@ -412,7 +412,7 @@ main {
 
 .Fourth-section .Hot-news {
   margin-left: 20px;
-  width: 689px;
+  width: 350px;
   height: 970px;
   opacity: 0.85;
   background: linear-gradient(225deg, #ccffff, #ffcccc);
@@ -424,7 +424,7 @@ main {
 
 .Fourth-section .Hot-news .banner-name {
   margin-left: 60px;
-  width: 557px;
+  width: 200px;
   height: 60px;
   opacity: 0.85;
   background: #ffffff;
@@ -470,7 +470,7 @@ main {
   display: flex;
   opacity: 1 !important;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 19px;
   text-decoration: none;
   color: #000000ee !important;
 }
@@ -497,9 +497,6 @@ main {
 .about-us .container {
   max-width: 1170px;
   margin: auto;
-  max-height: -webkit-max-content;
-  max-height: -moz-max-content;
-  max-height: max-content;
 }
 
 .about-us .row {
