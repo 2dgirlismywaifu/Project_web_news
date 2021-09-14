@@ -164,9 +164,11 @@ body .custom {
 }
 
 .content .news-content .post-title {
+  margin-top: 50px;
   color: #5c5b5b;
   margin: 5px;
   text-align: center;
+  font-size: 30px;
 }
 
 .content .news-content .post-content {
@@ -186,7 +188,8 @@ body .custom {
 .content .ad {
   margin-left: 50px;
   width: 555px;
-  height: 1060px;
+  height: auto;
+  /*chuyển sang auto cho quảng cáo ko bị tràn*/
   opacity: 1;
   background: rgba(255, 255, 255, 0.93);
   border: 1px solid rgba(255, 255, 255, 0);
