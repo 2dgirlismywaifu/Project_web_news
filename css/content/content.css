@@ -187,6 +187,20 @@ body .custom {
   height: 500px;
 }
 
+.main-content .news-content .post2-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 19px;
+  /*change font size*/
+  font-weight: 100;
+  text-align: center;
+}
+
+.main-content .news-content .post2-content img {
+  width: 650px;
+  height: 500px;
+}
+
 .main-content .news-content .imagethethao {
   max-width: 1032px;
   max-height: auto;
