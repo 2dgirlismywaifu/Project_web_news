@@ -142,7 +142,7 @@ body .custom {
   transition: 0.4;
 }
 
-.content {
+.main-content {
   margin-top: 50px;
   margin-right: 70px;
   margin-left: 70px;
@@ -151,9 +151,11 @@ body .custom {
   display: flex;
 }
 
-.content .news-content {
+.main-content .news-content {
   width: 1100px;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   opacity: 1;
   background: #ffffffed;
   border: 1px solid rgba(255, 255, 255, 0);
@@ -163,7 +165,7 @@ body .custom {
   /*code cho phần nội dung*/
 }
 
-.content .news-content .post-title {
+.main-content .news-content .post-title {
   margin-top: 50px;
   color: #5c5b5b;
   margin: 5px;
@@ -171,7 +173,7 @@ body .custom {
   font-size: 30px;
 }
 
-.content .news-content .post-content {
+.main-content .news-content .post-content {
   margin-left: 40px;
   margin-right: 40px;
   font-size: 19px;
@@ -180,12 +182,12 @@ body .custom {
   text-align: justify;
 }
 
-.content .news-content .post-content img {
+.main-content .news-content .post-content img {
   width: 800px;
   height: 500px;
 }
 
-.content .ad {
+.main-content .ad {
   margin-left: 50px;
   width: 555px;
   height: -webkit-fit-content;
@@ -200,28 +202,28 @@ body .custom {
           box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-.content .ad .content img {
+.main-content .ad .content img {
   display: block;
   width: 91%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.content .ad .content2 img {
+.main-content .ad .content2 img {
   display: block;
   width: 68%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.content .ad .content3 img {
+.main-content .ad .content3 img {
   display: block;
   width: 68%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.content .ad .content4 img {
+.main-content .ad .content4 img {
   display: block;
   width: 68%;
   margin-right: auto;
