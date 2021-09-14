@@ -82,7 +82,7 @@ body {
  
  .second-header {
     opacity: 0.85;
-    background-color: #ffffff;
+    background-color: #23aae0;
     border: 0px solid #ffffff;
     border-radius: 10px;
     box-shadow: 0px 3px px 0px #00000008; 
@@ -149,6 +149,66 @@ body {
               
             }
         }
+        .imagethethao  {
+           max-width: 1032px;
+    max-height: auto;
+          background: linear-gradient(225deg,#ccffff, #ffcccc);
+          opacity: 1;
+          font-size: 30px;
+          font-weight: 500;
+          margin-left: 60px;
+          
+        
+        img {
+          
+          width: 201px;
+          height: 174px;
+          opacity: 1 !important;
+          border: 1px solid #ffffff00;
+          border-radius: 10px;
+          box-shadow: 0px 3px 6px 0px #00000029; 
+        }
+        ul {
+          list-style: none;
+          align-items: center;
+        }
+        ul li {
+          display: flex;
+          margin-top: 30px;
+          margin-bottom: 40px;
+          margin-left: 30px;
+          margin-right: 60px;
+        }
+        ul li h2{
+          display: flex;
+          opacity: 1 !important;
+          font-weight: bold ;
+          font-size: 24px;
+          text-decoration: none;
+          color: #000000ee !important;
+        }
+        ul li:hover {
+          background-color: #a59a9aef;
+          transition: 0.4;
+      }
+        ul li .content {
+          margin-left: 50px;
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            text-align: justify;
+            ;
+          }
+        }
+        @media (max-width: 1200px) {
+          ul li .content p  {
+           display: none;
+          }
+        }
+      }
+      
+
+        
         .italic-text {
           font-style: italic;
           font-size:15px; 

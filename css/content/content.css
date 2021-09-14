@@ -102,7 +102,7 @@ body .custom {
 
 .second-header {
   opacity: 0.85;
-  background-color: #ffffff;
+  background-color: #23aae0;
   border: 0px solid #ffffff;
   border-radius: 10px;
   -webkit-box-shadow: 0px 3px px 0px #00000008;
@@ -185,6 +185,76 @@ body .custom {
 .main-content .news-content .post-content img {
   width: 800px;
   height: 500px;
+}
+
+.main-content .news-content .imagethethao {
+  max-width: 1032px;
+  max-height: auto;
+  background: linear-gradient(225deg, #ccffff, #ffcccc);
+  opacity: 1;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 60px;
+}
+
+.main-content .news-content .imagethethao img {
+  width: 201px;
+  height: 174px;
+  opacity: 1 !important;
+  border: 1px solid #ffffff00;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px 0px #00000029;
+          box-shadow: 0px 3px 6px 0px #00000029;
+}
+
+.main-content .news-content .imagethethao ul {
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content .news-content .imagethethao ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.main-content .news-content .imagethethao ul li h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1 !important;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000ee !important;
+}
+
+.main-content .news-content .imagethethao ul li:hover {
+  background-color: #a59a9aef;
+  -webkit-transition: 0.4;
+  transition: 0.4;
+}
+
+.main-content .news-content .imagethethao ul li .content {
+  margin-left: 50px;
+}
+
+.main-content .news-content .imagethethao ul li .content p {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+  .main-content .news-content .imagethethao ul li .content p {
+    display: none;
+  }
 }
 
 .main-content .news-content .italic-text {
