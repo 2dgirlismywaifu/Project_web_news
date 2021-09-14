@@ -16,7 +16,7 @@
  .first-header {
     margin: 0;
     padding: 0;
-    opacity: 0.85;
+    opacity: 0.95;
     box-sizing: border-box;
     background: #ffffffce;
     border-radius: 10px;
@@ -336,8 +336,8 @@ main {
         ;
       }
     }
-    @media (width: 650px) {
-      p {
+    @media (max-width: 1200px) {
+      ul li .content p  {
        display: none;
       }
     }
