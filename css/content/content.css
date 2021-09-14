@@ -187,9 +187,14 @@ body .custom {
   height: 500px;
 }
 
-.main-content .news-content .locfuho {
+.main-content .news-content .italic-text {
   font-style: italic;
   font-size: 15px;
+}
+
+.main-content .news-content .nguon {
+  text-align: right;
+  font-style: italic;
 }
 
 .main-content .ad {
