@@ -172,9 +172,15 @@ body .custom {
 .content .news-content .post-content {
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 18px;
+  font-size: 17px;
   /*change font size*/
   font-weight: 100;
+  text-align: justify;
+}
+
+.content .news-content .post-content img {
+  width: 800px;
+  height: 500px;
 }
 
 .content .ad {
@@ -189,8 +195,32 @@ body .custom {
           box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-.content .ad .content {
-  /*css for content ad, write code here*/
+.content .ad .content img {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content .ad .content2 img {
+  display: block;
+  width: 68%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content .ad .content3 img {
+  display: block;
+  width: 68%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content .ad .content4 img {
+  display: block;
+  width: 68%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about-us {
