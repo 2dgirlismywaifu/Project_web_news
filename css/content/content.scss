@@ -137,8 +137,14 @@ body {
         .post-content {
             margin-left: 40px;
             margin-right: 40px;
-            font-size: 18px;  /*change font size*/
+            font-size: 17px;  /*change font size*/
             font-weight: 100; 
+            text-align: justify;
+            img {
+              width: 800px;
+              height: 500px;
+              
+            }
         }
     }
     .ad {
@@ -151,7 +157,39 @@ body {
         border-radius: 10px;
         box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); 
         .content {
-            /*css for content ad, write code here*/
+             
+          img {
+            display: block;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+          }
+      
+        }
+        .content2 {
+         
+            img {
+              display: block;
+              width: 68%;
+              margin-right: auto;
+              margin-left: auto;
+            }
+        }
+        .content3 {
+          img {
+            display: block;
+            width: 68%;
+            margin-right: auto;
+            margin-left: auto;
+          }
+        }
+        .content4 {
+          img {
+            display: block;
+            width: 68%;
+            margin-right: auto;
+            margin-left: auto;
+          }
         }
     }
 }
