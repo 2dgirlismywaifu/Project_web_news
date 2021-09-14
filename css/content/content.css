@@ -224,7 +224,7 @@ body .custom {
   margin-right: 60px;
 }
 
-.main-content .news-content .imagethethao ul li h2 {
+.main-content .news-content .imagethethao ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
