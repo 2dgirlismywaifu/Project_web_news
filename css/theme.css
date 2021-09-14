@@ -102,9 +102,9 @@ body .custom {
 }
 
 .second-header {
-  opacity: 0.85;
-  background-color: #ffffff;
-  border: 0px solid #ffffff;
+  opacity: 1;
+  background-color: #c4e023;
+  border: 0px solid #f7f2f2;
   border-radius: 10px;
   -webkit-box-shadow: 0px 3px px 0px #00000008;
           box-shadow: 0px 3px px 0px #00000008;

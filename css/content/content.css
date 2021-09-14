@@ -174,7 +174,7 @@ body .custom {
 .content .news-content .post-content {
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 17px;
+  font-size: 19px;
   /*change font size*/
   font-weight: 100;
   text-align: justify;
@@ -200,7 +200,7 @@ body .custom {
 
 .content .ad .content img {
   display: block;
-  width: 100%;
+  width: 91%;
   margin-right: auto;
   margin-left: auto;
 }
