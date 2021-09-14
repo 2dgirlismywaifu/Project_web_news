@@ -188,8 +188,10 @@ body .custom {
 .content .ad {
   margin-left: 50px;
   width: 555px;
-  height: auto;
-  /*chuyển sang auto cho quảng cáo ko bị tràn*/
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /*chuyển sang fit-content cho quảng cáo ko bị tràn*/
   opacity: 1;
   background: rgba(255, 255, 255, 0.93);
   border: 1px solid rgba(255, 255, 255, 0);

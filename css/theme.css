@@ -419,7 +419,9 @@ main {
 .Fourth-section .Hot-news {
   margin-left: 100px;
   width: 750px;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   opacity: 0.85;
   background: linear-gradient(225deg, #ccffff, #ffcccc);
   border: 1px;
