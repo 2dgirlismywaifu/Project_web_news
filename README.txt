@@ -1,1 +1,1 @@
-bài tập làm website tin tức nhóm 5
+RULE: Use English to write commit messeage
